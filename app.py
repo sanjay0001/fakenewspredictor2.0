@@ -11,6 +11,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
 import nltk
+nltk.data.path.append('./nltk_data/')
 
 app=Flask(__name__)
 
